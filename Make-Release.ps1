@@ -4,6 +4,7 @@ $vsPath = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.
 Import-Module (Get-ChildItem $vsPath -Recurse -File -Filter Microsoft.VisualStudio.DevShell.dll).FullName
 Enter-VsDevShell -VsInstallPath $vsPath -SkipAutomaticLocation -DevCmdArguments '-arch=x64'
 
+echo "VS Dev Shell ready"
 # Then build with VS
 & cmake --preset final-dtwrapper
 & cmake --build --preset final-dtwrapper-release

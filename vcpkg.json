@@ -4,5 +4,6 @@
   "dependencies": [
     "detours",
     "spdlog"
-  ]
+  ],
+  "builtin-baseline": "2023-01-01"
 }
