@@ -9,7 +9,6 @@ project(
 set(PROJECT_DEPENDENCIES_PATH "${CMAKE_CURRENT_LIST_DIR}/dependencies")
 set(PROJECT_RESOURCES_PATH "${CMAKE_CURRENT_LIST_DIR}/resources")
 set(PROJECT_SOURCE_PATH "${CMAKE_CURRENT_LIST_DIR}/source")
-set(CMAKE_TOOLCHAIN_FILE "./vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 #
 # Store the current git commit hash for later use

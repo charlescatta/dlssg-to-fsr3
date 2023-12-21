@@ -29,7 +29,7 @@ jobs:
       shell: bash
 
     - name: Configure CMake
-      run: cmake -B build
+      run: cmake -B build -DCMAKE_TOOLCHAIN_FILE=D:/a/dlssg-to-fsr3/dlssg-to-fsr3/vcpkg/scripts/buildsystems/vcpkg.cmake
 
     - name: Build
       run: ./Make-Release.ps1
