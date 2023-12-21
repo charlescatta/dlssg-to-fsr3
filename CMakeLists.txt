@@ -10,16 +10,6 @@ set(PROJECT_DEPENDENCIES_PATH "${CMAKE_CURRENT_LIST_DIR}/dependencies")
 set(PROJECT_RESOURCES_PATH "${CMAKE_CURRENT_LIST_DIR}/resources")
 set(PROJECT_SOURCE_PATH "${CMAKE_CURRENT_LIST_DIR}/source")
 
-include(FetchContent)
-
-FetchContent_Declare(
-    spdlog
-    GIT_REPOSITORY https://github.com/gabime/spdlog.git
-    GIT_TAG v1.8.5  # Specify the version you want
-)
-
-FetchContent_MakeAvailable(spdlog)
-
 #
 # Store the current git commit hash for later use
 #
