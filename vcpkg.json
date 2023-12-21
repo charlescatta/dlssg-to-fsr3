@@ -5,5 +5,5 @@
     "detours",
     "spdlog"
   ],
-  "builtin-baseline": "2023-01-01"
+  "builtin-baseline": "4874bea8eb8db9e6610672cccdd6ccd5d55c6f1a"
 }
