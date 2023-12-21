@@ -25,7 +25,7 @@ jobs:
 
     - name: Install Dependencies with vcpkg
       run: |
-        ./vcpkg/vcpkg install --feature-flags=manifests && ./vcpkg/vcpkg install spdlog
+        ./vcpkg/vcpkg install --feature-flags=manifests && ./vcpkg/vcpkg integrate install
       shell: bash
 
     - name: Configure CMake
